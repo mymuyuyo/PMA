@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PMA Muyuyo - Dashboard de cumplimiento</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>PMA Muyuyo</h1>
+        <p>Dashboard de cumplimiento para revision del PNG</p>
+      </div>
+      <span id="last-update">Sin indice generado</span>
+    </header>
+
+    <main>
+      <section class="summary" id="summary"></section>
+      <section>
+        <h2>Matriz de cumplimiento</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Subplan</th>
+                <th>Medida</th>
+                <th>Frecuencia</th>
+                <th>Verificador</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody id="matrix-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

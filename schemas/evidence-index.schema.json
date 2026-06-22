@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PMA evidence index schema",
+  "type": "object",
+  "required": ["generatedAt", "year", "files", "summary"],
+  "properties": {
+    "generatedAt": { "type": ["string", "null"] },
+    "year": { "type": "integer" },
+    "files": { "type": "array" },
+    "summary": { "type": "object" }
+  }
+}

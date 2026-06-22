@@ -1,0 +1,65 @@
+{
+  "year": 2026,
+  "rules": [
+    {
+      "measureId": "agua_energia",
+      "requiredEvidence": ["evidencias/2026/05_verificacion_semestral"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "productos_respaldo",
+      "requiredEvidence": ["evidencias/2026/04_productos_proveedor"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "desechos_verificacion",
+      "requiredEvidence": ["evidencias/2026/05_verificacion_semestral"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "desechos_comprobante_municipal",
+      "requiredEvidence": ["evidencias/2026/03_desechos_solidos"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "bomberos",
+      "requiredEvidence": ["evidencias/2026/02_bomberos"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "acta_pma_simulacro",
+      "requiredEvidence": ["evidencias/2026/06_acta_anual_pma_simulacro"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "incidentes",
+      "requiredEvidence": ["evidencias/2026/07_incidentes_acciones_quejas"],
+      "minimumFiles": 0,
+      "defaultStatus": "no_aplica"
+    },
+    {
+      "measureId": "patente_municipal",
+      "requiredEvidence": ["evidencias/2026/01_patente_municipal"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "matriz_control",
+      "requiredEvidence": ["data/evidence-index.json"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    },
+    {
+      "measureId": "dashboard_actualizado",
+      "requiredEvidence": ["public/index.html"],
+      "minimumFiles": 1,
+      "statusWhenMissing": "pendiente"
+    }
+  ]
+}

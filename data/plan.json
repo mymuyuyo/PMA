@@ -1,0 +1,116 @@
+{
+  "project": {
+    "name": "Hostal Muyuyo",
+    "document": "Plan de Manejo Ambiental actualizado",
+    "reviewTarget": "PNG",
+    "currentYear": 2026
+  },
+  "subplans": [
+    {
+      "id": "prevencion_mitigacion",
+      "name": "Subplan de prevencion y mitigacion",
+      "measures": [
+        {
+          "id": "agua_energia",
+          "description": "Mantener practicas de ahorro de agua y energia durante la operacion del establecimiento.",
+          "responsible": "Administracion",
+          "frequency": "semestral",
+          "verifier": "Verificacion semestral ambiental general"
+        },
+        {
+          "id": "productos_respaldo",
+          "description": "Usar productos de limpieza o higiene con respaldo ambiental disponible para la operacion.",
+          "responsible": "Administracion",
+          "frequency": "semestral",
+          "verifier": "Certificacion del proveedor, fichas, etiquetas, facturas o respaldo ambiental equivalente"
+        }
+      ]
+    },
+    {
+      "id": "manejo_desechos",
+      "name": "Subplan de manejo de desechos",
+      "measures": [
+        {
+          "id": "desechos_verificacion",
+          "description": "Separar y disponer desechos solidos conforme a practica municipal.",
+          "responsible": "Administracion y personal operativo",
+          "frequency": "semestral",
+          "verifier": "Verificacion semestral ambiental general"
+        },
+        {
+          "id": "desechos_comprobante_municipal",
+          "description": "Comprobar la recoleccion municipal de desechos solidos.",
+          "responsible": "Administracion",
+          "frequency": "anual",
+          "verifier": "Factura o comprobante de pago al municipio por recoleccion de desechos solidos"
+        }
+      ]
+    },
+    {
+      "id": "contingencias_seguridad",
+      "name": "Subplan de contingencias y seguridad",
+      "measures": [
+        {
+          "id": "bomberos",
+          "description": "Mantener extintores, senaletica y medios de prevencion contra incendios.",
+          "responsible": "Administracion",
+          "frequency": "anual",
+          "verifier": "Informe General de Inspeccion del Cuerpo de Bomberos"
+        },
+        {
+          "id": "acta_pma_simulacro",
+          "description": "Realizar revision interna del PMA y simulacro operativo.",
+          "responsible": "Administracion",
+          "frequency": "anual",
+          "verifier": "Acta anual de revision del PMA y simulacro"
+        },
+        {
+          "id": "incidentes",
+          "description": "Registrar incidentes ambientales, acciones correctivas o quejas cuando ocurran.",
+          "responsible": "Administracion",
+          "frequency": "eventual",
+          "verifier": "Registro eventual de incidentes, acciones correctivas o quejas"
+        }
+      ]
+    },
+    {
+      "id": "cumplimiento_legal_municipal",
+      "name": "Subplan de cumplimiento legal municipal",
+      "measures": [
+        {
+          "id": "patente_municipal",
+          "description": "Mantener vigente la patente municipal de operacion.",
+          "responsible": "Administracion",
+          "frequency": "anual",
+          "verifier": "Patente Municipal de Operacion otorgada por el GAD Municipal de Santa Cruz"
+        }
+      ]
+    },
+    {
+      "id": "seguimiento_control_documental",
+      "name": "Subplan de seguimiento, verificacion y control documental",
+      "measures": [
+        {
+          "id": "matriz_control",
+          "description": "Actualizar matriz, formatos minimos y archivo anual.",
+          "responsible": "Administracion",
+          "frequency": "semestral_anual",
+          "verifier": "Matriz de cumplimiento y archivo anual de verificadores"
+        }
+      ]
+    },
+    {
+      "id": "dashboard_png",
+      "name": "Subplan de dashboard de cumplimiento para revision del PNG",
+      "measures": [
+        {
+          "id": "dashboard_actualizado",
+          "description": "Mantener tablero de cumplimiento e indicadores del PMA.",
+          "responsible": "Administracion",
+          "frequency": "semestral_anual",
+          "verifier": "Dashboard de cumplimiento actualizado"
+        }
+      ]
+    }
+  ]
+}

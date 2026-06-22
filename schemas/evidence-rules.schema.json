@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PMA evidence rules schema",
+  "type": "object",
+  "required": ["year", "rules"],
+  "properties": {
+    "year": { "type": "integer" },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["measureId", "requiredEvidence", "minimumFiles"]
+      }
+    }
+  }
+}

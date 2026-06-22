@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PMA plan schema",
+  "type": "object",
+  "required": ["project", "subplans"],
+  "properties": {
+    "project": { "type": "object" },
+    "subplans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "measures"]
+      }
+    }
+  }
+}

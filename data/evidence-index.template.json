@@ -1,0 +1,23 @@
+{
+  "updatedAt": "2026-01-01",
+  "year": 2026,
+  "files": [
+    {
+      "path": "evidencias/2026/01_patente_municipal/2026_patente_municipal_muyuyo.pdf",
+      "name": "2026_patente_municipal_muyuyo.pdf",
+      "type": "patente_municipal",
+      "year": 2026
+    },
+    {
+      "path": "evidencias/2026/02_bomberos/2026_informe_general_inspeccion_bomberos.pdf",
+      "name": "2026_informe_general_inspeccion_bomberos.pdf",
+      "type": "bomberos",
+      "year": 2026
+    }
+  ],
+  "summary": {
+    "totalFiles": 2,
+    "foldersIndexed": 2,
+    "updateMode": "manual"
+  }
+}
