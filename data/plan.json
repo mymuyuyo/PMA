@@ -12,7 +12,7 @@
       "measures": [
         {
           "id": "agua_energia",
-          "description": "Mantener practicas de ahorro de agua y energia durante la operacion del establecimiento.",
+          "description": "Mantener practicas de ahorro de agua y energia.",
           "responsible": "Administracion",
           "frequency": "semestral",
           "verifier": "Verificacion semestral ambiental general",
@@ -110,7 +110,7 @@
     },
     {
       "id": "dashboard_png",
-      "name": "Subplan de dashboard de cumplimiento para revision del PNG",
+      "name": "Subplan de dashboard de verificacion de cumplimiento para revision del PNG",
       "measures": [
         {
           "id": "dashboard_actualizado",
