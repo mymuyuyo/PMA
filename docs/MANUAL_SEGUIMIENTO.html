@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manual de seguimiento - PMA Hostal Muyuyo</title>
+    <style>
+      :root { color-scheme: light; --ink: #1f2937; --muted: #667085; --line: #d0d5dd; --blue: #1f4d78; --soft: #f8fafc; --panel: #ffffff; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: #f6f7f9; line-height: 1.55; }
+      header, main { max-width: 1040px; margin: 0 auto; }
+      header { padding: 32px 24px 18px; }
+      main { padding: 0 24px 40px; }
+      h1 { margin: 0 0 6px; font-size: 30px; }
+      h2 { margin: 28px 0 10px; color: var(--blue); font-size: 20px; }
+      p { margin: 0 0 10px; }
+      li { margin-bottom: 7px; }
+      code { padding: 2px 5px; border-radius: 4px; background: #eef2f6; }
+      .subtitle { color: var(--muted); }
+      .card { margin-top: 16px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+      .note { border-left: 4px solid var(--blue); background: var(--soft); }
+      table { width: 100%; border-collapse: collapse; margin-top: 10px; background: var(--panel); }
+      th, td { padding: 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+      th { background: var(--soft); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="subtitle">Plan de Manejo Ambiental</p>
+      <h1>Manual de seguimiento a planes</h1>
+      <p class="subtitle">Uso del dashboard, filtros, matriz, alertas, evidencias y descarga de documentos.</p>
+    </header>
+    <main>
+      <section class="card note">
+        <h2>Regla de vigencia</h2>
+        <p>El seguimiento del plan ambiental vigente se controla desde el periodo <strong>Junio 2026 - mayo 2028</strong> en adelante.</p>
+        <p>Los periodos anteriores a junio 2026 se consultan solo como expediente historico documental.</p>
+      </section>
+
+      <section class="card">
+        <h2>1. Abrir seguimiento</h2>
+        <ol>
+          <li>Abra la pagina del sistema en GitHub Pages.</li>
+          <li>Seleccione <strong>Seguimiento a planes</strong> en el menu principal.</li>
+          <li>Revise los indicadores superiores de cumplimiento general.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>2. Usar filtros</h2>
+        <ol>
+          <li>Seleccione el <strong>Periodo</strong> que desea revisar.</li>
+          <li>Filtre por <strong>Subplan</strong> si necesita revisar una parte especifica del PMA.</li>
+          <li>Use <strong>Estado</strong> para ver medidas cumplidas, pendientes, no aplicables o en correccion.</li>
+          <li>Use <strong>Frecuencia</strong> para separar obligaciones semestrales, anuales o eventuales.</li>
+          <li>Use <strong>Buscar</strong> para ubicar una medida, responsable o verificador.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>3. Leer la matriz</h2>
+        <table>
+          <tr><th>Columna</th><th>Uso</th></tr>
+          <tr><td>Subplan</td><td>Componente del PMA al que pertenece la medida.</td></tr>
+          <tr><td>Medida</td><td>Actividad ambiental que debe cumplirse.</td></tr>
+          <tr><td>Responsable</td><td>Area o persona encargada.</td></tr>
+          <tr><td>Frecuencia</td><td>Periodicidad de verificacion.</td></tr>
+          <tr><td>Verificador</td><td>Documento esperado para comprobar cumplimiento.</td></tr>
+          <tr><td>Criterio</td><td>Condicion usada para considerar la medida cumplida.</td></tr>
+          <tr><td>Fecha</td><td>Fecha registrada en la revision o evidencia.</td></tr>
+          <tr><td>Estado</td><td>Resultado de cumplimiento.</td></tr>
+          <tr><td>Evidencias</td><td>Enlaces a documentos cargados en el repositorio.</td></tr>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>4. Revisar alertas</h2>
+        <p>El bloque de alertas muestra medidas pendientes o en correccion. Use estas alertas como lista de trabajo para completar verificadores o cerrar novedades documentales.</p>
+      </section>
+
+      <section class="card">
+        <h2>5. Descargar documentos del periodo</h2>
+        <ol>
+          <li>Seleccione un periodo en el filtro.</li>
+          <li>Revise el bloque <strong>Documentos del periodo</strong>.</li>
+          <li>Presione <strong>Descargar documentos</strong>.</li>
+          <li>El sistema descargara solo los documentos relacionados con el periodo filtrado.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>6. Periodos historicos</h2>
+        <p>Para periodos anteriores a junio 2026, el sistema no evalua la matriz del plan vigente. En esos periodos se revisan solamente:</p>
+        <ul>
+          <li>Informe de cumplimiento.</li>
+          <li>Oficio de presentacion.</li>
+          <li>Anexos.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manual para subir informacion - PMA Hostal Muyuyo</title>
+    <style>
+      :root { color-scheme: light; --ink: #1f2937; --muted: #667085; --line: #d0d5dd; --blue: #1f4d78; --soft: #f8fafc; --panel: #ffffff; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: #f6f7f9; line-height: 1.55; }
+      header, main { max-width: 1040px; margin: 0 auto; }
+      header { padding: 32px 24px 18px; }
+      main { padding: 0 24px 40px; }
+      h1 { margin: 0 0 6px; font-size: 30px; }
+      h2 { margin: 28px 0 10px; color: var(--blue); font-size: 20px; }
+      p { margin: 0 0 10px; }
+      li { margin-bottom: 7px; }
+      code { padding: 2px 5px; border-radius: 4px; background: #eef2f6; }
+      .subtitle { color: var(--muted); }
+      .card { margin-top: 16px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+      .note { border-left: 4px solid var(--blue); background: var(--soft); }
+      table { width: 100%; border-collapse: collapse; margin-top: 10px; background: var(--panel); }
+      th, td { padding: 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+      th { background: var(--soft); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="subtitle">Plan de Manejo Ambiental</p>
+      <h1>Manual para subir informacion</h1>
+      <p class="subtitle">Procedimiento para registrar cumplimiento, cargar evidencias y actualizar el indice documental.</p>
+    </header>
+    <main>
+      <section class="card note">
+        <h2>Importante</h2>
+        <p>El sistema no usa API ni escribe directamente en GitHub. Genera un archivo <code>evidence-index.json</code>, que luego debe subirse manualmente al repositorio.</p>
+      </section>
+
+      <section class="card">
+        <h2>1. Ingresar a subir informacion</h2>
+        <ol>
+          <li>Seleccione <strong>Subir informacion</strong> en el menu principal.</li>
+          <li>Ingrese las credenciales basicas.</li>
+        </ol>
+        <table>
+          <tr><th>Usuario</th><td><code>admin</code></td></tr>
+          <tr><th>Contrasena</th><td><code>Muyuyo2026#</code></td></tr>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>2. Registrar cumplimiento del plan vigente</h2>
+        <p>Use este formulario para alimentar la matriz desde el periodo 2026-2028 en adelante.</p>
+        <ol>
+          <li>Seleccione la medida del PMA.</li>
+          <li>Seleccione el estado: Cumple, Pendiente, No aplica o En correccion.</li>
+          <li>Registre la fecha de revision.</li>
+          <li>Seleccione el periodo vigente.</li>
+          <li>Confirme el responsable de revision.</li>
+          <li>Escriba la ruta del verificador dentro del repositorio.</li>
+          <li>Escriba el nombre del archivo.</li>
+          <li>Agregue una observacion breve cuando sea necesario.</li>
+          <li>Presione <strong>Agregar a matriz</strong>.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>3. Carga asistida de evidencias</h2>
+        <p>Use esta opcion para registrar varios archivos en una misma carpeta del repositorio.</p>
+        <ol>
+          <li>Importe el indice existente si ya tiene un <code>evidence-index.json</code> actualizado.</li>
+          <li>Seleccione la carpeta destino en GitHub.</li>
+          <li>Seleccione los archivos a registrar.</li>
+          <li>Revise la vista previa.</li>
+          <li>Presione <strong>Agregar seleccionados</strong>.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>4. Editor manual de indice</h2>
+        <p>Use este formulario para documentos puntuales o para el expediente historico anterior a junio 2026.</p>
+        <p>Para periodos historicos registre solamente:</p>
+        <ul>
+          <li>Informe de cumplimiento.</li>
+          <li>Oficio de presentacion.</li>
+          <li>Anexos.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>5. Descargar el indice actualizado</h2>
+        <ol>
+          <li>Despues de registrar la informacion, presione <strong>Descargar indice</strong>.</li>
+          <li>El navegador descargara <code>evidence-index.json</code>.</li>
+          <li>Suba ese archivo a GitHub en la carpeta <code>data/</code>, reemplazando el anterior.</li>
+          <li>Suba tambien los documentos o evidencias en sus carpetas correspondientes.</li>
+          <li>Espere la actualizacion de GitHub Pages y revise el dashboard.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>6. Rutas recomendadas</h2>
+        <table>
+          <tr><th>Tipo</th><th>Carpeta</th></tr>
+          <tr><td>Patente municipal</td><td><code>evidencias/AAAA/01_patente_municipal/</code></td></tr>
+          <tr><td>Bomberos</td><td><code>evidencias/AAAA/02_bomberos/</code></td></tr>
+          <tr><td>Desechos solidos</td><td><code>evidencias/AAAA/03_desechos_solidos/</code></td></tr>
+          <tr><td>Productos proveedor</td><td><code>evidencias/AAAA/04_productos_proveedor/</code></td></tr>
+          <tr><td>Verificacion semestral</td><td><code>evidencias/AAAA/05_verificacion_semestral/</code></td></tr>
+          <tr><td>Acta anual PMA y simulacro</td><td><code>evidencias/AAAA/06_acta_anual_pma_simulacro/</code></td></tr>
+          <tr><td>Incidentes o quejas</td><td><code>evidencias/AAAA/07_incidentes_acciones_quejas/</code></td></tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
