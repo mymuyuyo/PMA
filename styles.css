@@ -173,6 +173,25 @@ main {
   margin-bottom: 18px;
 }
 
+.period-context {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--blue);
+  border-radius: 8px;
+  color: var(--blue);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  font-weight: 700;
+}
+
+.matrix-context {
+  margin-top: 4px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .main-menu {
   display: flex;
   gap: 10px;

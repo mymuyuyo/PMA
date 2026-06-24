@@ -139,7 +139,7 @@ const state = {
   evidenceIndex: null,
   measures: [],
   filters: {
-    period: "todos",
+    period: CURRENT_PLAN_START_PERIOD,
     subplan: "todos",
     status: "todos",
     frequency: "todos",
@@ -238,6 +238,13 @@ function renderSummary(measures) {
     .join("");
 }
 
+function activePeriodLabel() {
+  if (state.filters.period === "todos") return "Todos los periodos vigentes desde junio 2026";
+  const label = periodLabel(state.filters.period);
+  if (!isCurrentPlanPeriod(state.filters.period)) return `${label} - expediente historico, no aplica matriz vigente`;
+  return label;
+}
+
 function populateFilters() {
   const periodSelect = document.getElementById("filter-period");
   const editorPeriodSelect = document.getElementById("evidence-period");
@@ -251,6 +258,7 @@ function populateFilters() {
   const subplans = [["todos", "Todos"], ...state.plan.subplans.map((item) => [item.id, item.name])];
   const frequencies = [["todos", "Todas"], ...Array.from(new Set(state.measures.map((m) => m.frequency))).map((f) => [f, f])];
   periodSelect.innerHTML = periods.map(([value, label]) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`).join("");
+  periodSelect.value = state.filters.period;
   editorPeriodSelect.innerHTML = HISTORICAL_PERIODS.map((item) => `<option value="${escapeHtml(item.id)}">${escapeHtml(item.label)}</option>`).join("");
   editorPeriodSelect.value = CURRENT_PLAN_START_PERIOD;
   matrixPeriodSelect.innerHTML = HISTORICAL_PERIODS.filter((item) => isCurrentPlanPeriod(item.id)).map((item) => `<option value="${escapeHtml(item.id)}">${escapeHtml(item.label)}</option>`).join("");
@@ -306,6 +314,7 @@ function evidenceLinks(files) {
 function renderMatrix() {
   const measures = filteredMeasures();
   document.getElementById("matrix-count").textContent = `${measures.length} medidas`;
+  document.getElementById("matrix-period-context").textContent = `Periodo: ${activePeriodLabel()}`;
   document.getElementById("matrix-body").innerHTML = measures
     .map((measure) => `
       <tr>
@@ -321,6 +330,13 @@ function renderMatrix() {
       </tr>
     `)
     .join("");
+}
+
+function renderPeriodContext() {
+  const context = document.getElementById("active-period-context");
+  if (context) {
+    context.textContent = `Periodo de revision: ${activePeriodLabel()}`;
+  }
 }
 
 function renderAlerts() {
@@ -483,6 +499,7 @@ function syncMatrixMeasureFields() {
 }
 
 function renderAll() {
+  renderPeriodContext();
   renderSummary(periodScopedMeasures());
   renderMatrix();
   renderAlerts();
