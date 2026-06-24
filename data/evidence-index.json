@@ -1,24 +1,243 @@
-{
-  "updatedAt": null,
-  "year": 2026,
-  "files": [
-    {
-      "path": "documentos_pma/pma_final/PMA_ACTUALIZADO 2026 HMUYUYO-signed.pdf",
-      "name": "PMA_ACTUALIZADO 2026 HMUYUYO-signed.pdf",
-      "type": "plan_actualizado",
-      "year": 2026,
-      "period": "2026_06_a_2028_05",
-      "subplanId": "seguimiento_control_documental",
-      "measureId": "matriz_control",
-      "status": "cumple",
-      "reviewDate": "2026-06-23",
-      "reviewedBy": "Administracion",
-      "notes": "Plan actualizado registrado para el periodo vigente."
-    }
-  ],
-  "summary": {
-    "totalFiles": 1,
-    "foldersIndexed": 1,
-    "updateMode": "manual"
-  }
+﻿{
+    "updatedAt":  "2026-06-24",
+    "year":  2026,
+    "files":  [
+                  {
+                      "path":  "index.html",
+                      "name":  "Dashboard PMA Hostal Muyuyo",
+                      "type":  "dashboard_actualizado",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "dashboard_png",
+                      "measureId":  "dashboard_actualizado",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Dashboard publicado en GitHub Pages."
+                  },
+                  {
+                      "path":  "docs/PMA_VIGENTE.html",
+                      "name":  "PMA Vigente HTML",
+                      "type":  "plan_actualizado",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "seguimiento_control_documental",
+                      "measureId":  "matriz_control",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Version HTML navegable del PMA vigente."
+                  },
+                  {
+                      "path":  "documentos_pma/pma_final/PMA_ACTUALIZADO 2026 HMUYUYO-signed.pdf",
+                      "name":  "PMA_ACTUALIZADO 2026 HMUYUYO-signed.pdf",
+                      "type":  "plan_actualizado",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "seguimiento_control_documental",
+                      "measureId":  "matriz_control",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "PMA vigente archivado."
+                  },
+                  {
+                      "path":  "documentos_pma/pma_final/PMA_ACTUALIZADO 2026 HMUYUYO.docx",
+                      "name":  "PMA_ACTUALIZADO 2026 HMUYUYO.docx",
+                      "type":  "plan_actualizado",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "seguimiento_control_documental",
+                      "measureId":  "matriz_control",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "PMA vigente archivado."
+                  },
+                  {
+                      "path":  "documentos_pma/oficios_presentacion/2016_06_a_2018_05/Oficio Nro. 010-HM-2026.pdf",
+                      "name":  "Oficio Nro. 010-HM-2026.pdf",
+                      "type":  "oficio_presentacion",
+                      "year":  2016,
+                      "period":  "2016_06_a_2018_05",
+                      "notes":  "Oficio de presentacion del informe de cumplimiento."
+                  },
+                  {
+                      "path":  "documentos_pma/oficios_presentacion/2018_06_a_2020_05/Oficio Nro. 011-HM-2026.pdf",
+                      "name":  "Oficio Nro. 011-HM-2026.pdf",
+                      "type":  "oficio_presentacion",
+                      "year":  2018,
+                      "period":  "2018_06_a_2020_05",
+                      "notes":  "Oficio de presentacion del informe de cumplimiento."
+                  },
+                  {
+                      "path":  "documentos_pma/oficios_presentacion/2020_06_a_2022_05/Oficio Nro. 012-HM-2026.pdf",
+                      "name":  "Oficio Nro. 012-HM-2026.pdf",
+                      "type":  "oficio_presentacion",
+                      "year":  2020,
+                      "period":  "2020_06_a_2022_05",
+                      "notes":  "Oficio de presentacion del informe de cumplimiento."
+                  },
+                  {
+                      "path":  "documentos_pma/oficios_presentacion/2022_06_a_2024_05/Oficio Nr. 013-HM-2026-signed.pdf",
+                      "name":  "Oficio Nr. 013-HM-2026-signed.pdf",
+                      "type":  "oficio_presentacion",
+                      "year":  2022,
+                      "period":  "2022_06_a_2024_05",
+                      "notes":  "Oficio de presentacion del informe de cumplimiento."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2015_06_a_2016_05/MUYUYO_INF_AMB_CUMP_PMA 2015-2016.pdf",
+                      "name":  "MUYUYO_INF_AMB_CUMP_PMA 2015-2016.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2015,
+                      "period":  "2015_06_a_2016_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2016_06_a_2018_05/ACTA SEGUIMIENTO PM 2016_2018.pdf",
+                      "name":  "ACTA SEGUIMIENTO PM 2016_2018.pdf",
+                      "type":  "anexos",
+                      "year":  2016,
+                      "period":  "2016_06_a_2018_05",
+                      "notes":  "Acta o anexo de seguimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2016_06_a_2018_05/IAC_MUYUYO_GUEST_HOUSE_2016_2018.pdf",
+                      "name":  "IAC_MUYUYO_GUEST_HOUSE_2016_2018.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2016,
+                      "period":  "2016_06_a_2018_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2018_06_a_2020_05/ACTA_SEGUIMIENTO_PMA_2018_2020_Hostal_Muyuyo.pdf",
+                      "name":  "ACTA_SEGUIMIENTO_PMA_2018_2020_Hostal_Muyuyo.pdf",
+                      "type":  "anexos",
+                      "year":  2018,
+                      "period":  "2018_06_a_2020_05",
+                      "notes":  "Acta o anexo de seguimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2018_06_a_2020_05/IAC_MUYUYO_GUEST_HOUSE_2018_2020.pdf",
+                      "name":  "IAC_MUYUYO_GUEST_HOUSE_2018_2020.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2018,
+                      "period":  "2018_06_a_2020_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2020_06_a_2022_05/ACTA_SEGUIMIENTO_PMA_2020_2022.pdf",
+                      "name":  "ACTA_SEGUIMIENTO_PMA_2020_2022.pdf",
+                      "type":  "anexos",
+                      "year":  2020,
+                      "period":  "2020_06_a_2022_05",
+                      "notes":  "Acta o anexo de seguimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2020_06_a_2022_05/IAC_MUYUYO_GUEST_HOUSE_2020_2022.pdf",
+                      "name":  "IAC_MUYUYO_GUEST_HOUSE_2020_2022.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2020,
+                      "period":  "2020_06_a_2022_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2022_06_a_2024_05/ACTA_SEGUIMIENTO_PMA_2022_2024.pdf",
+                      "name":  "ACTA_SEGUIMIENTO_PMA_2022_2024.pdf",
+                      "type":  "anexos",
+                      "year":  2022,
+                      "period":  "2022_06_a_2024_05",
+                      "notes":  "Acta o anexo de seguimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2022_06_a_2024_05/IAC_MUYUYO_GUEST_HOUSE_2022_2024.pdf",
+                      "name":  "IAC_MUYUYO_GUEST_HOUSE_2022_2024.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2022,
+                      "period":  "2022_06_a_2024_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2024_06_a_2026_05/ACTA_SEGUIMIENTO_PMA_2022_2024.pdf",
+                      "name":  "ACTA_SEGUIMIENTO_PMA_2022_2024.pdf",
+                      "type":  "anexos",
+                      "year":  2024,
+                      "period":  "2024_06_a_2026_05",
+                      "notes":  "Acta o anexo de seguimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2024_06_a_2026_05/IAC_MUYUYO_GUEST_HOUSE_2022_2024.pdf",
+                      "name":  "IAC_MUYUYO_GUEST_HOUSE_2022_2024.pdf",
+                      "type":  "informe_cumplimiento",
+                      "year":  2024,
+                      "period":  "2024_06_a_2026_05",
+                      "notes":  "Informe de cumplimiento del periodo."
+                  },
+                  {
+                      "path":  "documentos_pma/informes_bianuales/2024_06_a_2026_05/Oficio Nr. 013-HM-2026-signed.pdf",
+                      "name":  "Oficio Nr. 013-HM-2026-signed.pdf",
+                      "type":  "oficio_presentacion",
+                      "year":  2024,
+                      "period":  "2024_06_a_2026_05",
+                      "notes":  "Oficio de presentacion del informe de cumplimiento."
+                  },
+                  {
+                      "path":  "evidencias/2026/03_desechos_solidos/Factura-90 HIDROCLEANER  2026.pdf",
+                      "name":  "Factura-90 HIDROCLEANER  2026.pdf",
+                      "type":  "desechos_solidos",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "manejo_desechos",
+                      "measureId":  "desechos_comprobante_municipal",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Comprobante asociado al manejo de desechos solidos."
+                  },
+                  {
+                      "path":  "evidencias/2026/03_desechos_solidos/Factura-91 HIDROCLEANER 2025.pdf",
+                      "name":  "Factura-91 HIDROCLEANER 2025.pdf",
+                      "type":  "desechos_solidos",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "manejo_desechos",
+                      "measureId":  "desechos_comprobante_municipal",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Comprobante asociado al manejo de desechos solidos."
+                  },
+                  {
+                      "path":  "evidencias/2026/04_productos_proveedor/CERTIFICACION NEGOCIOS UNIDOS BIODEGRADABLES.pdf",
+                      "name":  "CERTIFICACION NEGOCIOS UNIDOS BIODEGRADABLES.pdf",
+                      "type":  "productos_proveedor",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "prevencion_mitigacion",
+                      "measureId":  "productos_respaldo",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Certificacion o respaldo ambiental de proveedor."
+                  },
+                  {
+                      "path":  "evidencias/2026/04_productos_proveedor/Certificado Biocoral PRODUCTOS BIODEGRADABLES.pdf",
+                      "name":  "Certificado Biocoral PRODUCTOS BIODEGRADABLES.pdf",
+                      "type":  "productos_proveedor",
+                      "year":  2026,
+                      "period":  "2026_06_a_2028_05",
+                      "subplanId":  "prevencion_mitigacion",
+                      "measureId":  "productos_respaldo",
+                      "status":  "cumple",
+                      "reviewDate":  "2026-06-24",
+                      "reviewedBy":  "Administracion",
+                      "notes":  "Certificacion o respaldo ambiental de proveedor."
+                  }
+              ],
+    "summary":  {
+                    "totalFiles":  24,
+                    "foldersIndexed":  15,
+                    "updateMode":  "github_tree_review"
+                }
 }
