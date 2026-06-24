@@ -51,7 +51,7 @@
     },
     {
       "measureId": "matriz_control",
-      "requiredEvidence": ["documentos_pma/pma_final", "data/evidence-index.json"],
+      "requiredEvidence": ["documentos_pma/pma_final", "docs/PMA_VIGENTE.html", "data/evidence-index.json"],
       "minimumFiles": 1,
       "statusWhenMissing": "pendiente"
     },
