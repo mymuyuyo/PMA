@@ -2,11 +2,30 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "PMA evidence index schema",
   "type": "object",
-  "required": ["generatedAt", "year", "files", "summary"],
+  "required": ["updatedAt", "year", "files", "summary"],
   "properties": {
-    "generatedAt": { "type": ["string", "null"] },
+    "updatedAt": { "type": ["string", "null"] },
     "year": { "type": "integer" },
-    "files": { "type": "array" },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "name", "type", "year", "period", "subplanId"],
+        "properties": {
+          "path": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "year": { "type": "integer" },
+          "period": { "type": "string" },
+          "subplanId": { "type": "string" },
+          "measureId": { "type": "string" },
+          "status": { "type": "string" },
+          "reviewDate": { "type": "string" },
+          "reviewedBy": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
     "summary": { "type": "object" }
   }
 }

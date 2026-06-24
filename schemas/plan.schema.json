@@ -9,7 +9,18 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "measures"]
+        "required": ["id", "name", "measures"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "measures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "description", "responsible", "frequency", "verifier", "criterion"]
+            }
+          }
+        }
       }
     }
   }
