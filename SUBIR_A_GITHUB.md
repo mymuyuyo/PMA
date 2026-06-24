@@ -37,7 +37,7 @@ Colocar el PMA final en:
 documentos_pma/pma_final/
 ```
 
-Colocar informes bianuales historicos en:
+Colocar informes de cumplimiento historicos en:
 
 ```text
 documentos_pma/informes_bianuales/
@@ -52,19 +52,27 @@ La estructura de periodos es:
 2020_06_a_2022_05/  periodo bianual
 2022_06_a_2024_05/  periodo bianual
 2024_06_a_2026_05/  periodo bianual
+2026_06_a_2028_05/  periodo bianual
+2028_06_a_2030_05/  periodo bianual
 ```
 
-Colocar oficios, acuses y respuestas en:
+Colocar oficios de presentacion en:
 
 ```text
 documentos_pma/oficios_presentacion/
 ```
 
-Los oficios se archivan en la carpeta del mismo periodo del informe presentado.
+Colocar anexos en:
+
+```text
+documentos_pma/anexos/
+```
+
+Para periodos anteriores a `2026_06_a_2028_05`, solo se registra: informe de cumplimiento, oficio de presentacion y anexos. La matriz de seguimiento del plan vigente aplica desde `2026_06_a_2028_05` en adelante.
 
 ## 4. Subir evidencias
 
-Colocar cada verificador en su carpeta:
+Colocar cada verificador en su carpeta del anio correspondiente. La estructura base se replica de 2026 a 2030:
 
 ```text
 evidencias/2026/01_patente_municipal/
@@ -74,11 +82,17 @@ evidencias/2026/04_productos_proveedor/
 evidencias/2026/05_verificacion_semestral/
 evidencias/2026/06_acta_anual_pma_simulacro/
 evidencias/2026/07_incidentes_acciones_quejas/
+evidencias/2027/
+evidencias/2028/
+evidencias/2029/
+evidencias/2030/
 ```
 
 ## 5. Actualizar el indice manual
 
 Editar `data/evidence-index.json` y agregar cada archivo cargado dentro de `files`.
+
+La forma recomendada es abrir la opcion `Subir informacion`, ingresar con usuario `admin`, registrar el cumplimiento del plan vigente o las evidencias documentales, descargar `evidence-index.json` y reemplazar el archivo en GitHub.
 
 Ejemplo:
 
@@ -87,7 +101,9 @@ Ejemplo:
   "path": "evidencias/2026/01_patente_municipal/2026_patente_municipal_muyuyo.pdf",
   "name": "2026_patente_municipal_muyuyo.pdf",
   "type": "patente_municipal",
-  "year": 2026
+  "year": 2026,
+  "period": "2026_06_a_2028_05",
+  "subplanId": "cumplimiento_legal_municipal"
 }
 ```
 
