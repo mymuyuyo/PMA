@@ -166,6 +166,10 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function fileUrl(path) {
+  return encodeURI(`./${normalizePath(path)}`);
+}
+
 function filesForRule(rule, evidenceIndex) {
   const folders = rule.requiredEvidence.map(normalizePath);
   return (evidenceIndex.files || []).filter((file) => {
@@ -307,7 +311,7 @@ function filteredMeasures() {
 function evidenceLinks(files) {
   if (!files.length) return `<span class="muted">Sin evidencia registrada</span>`;
   return `<div class="evidence-links">${files
-    .map((file) => `<a href="./${escapeHtml(file.path)}" target="_blank" rel="noopener">${escapeHtml(file.name || file.path)}</a>`)
+    .map((file) => `<a href="${escapeHtml(fileUrl(file.path))}" target="_blank" rel="noopener">${escapeHtml(file.name || file.path)}</a>`)
     .join("")}</div>`;
 }
 
@@ -372,7 +376,7 @@ function renderEvidenceList() {
         <h3>${escapeHtml(file.name || file.path)}</h3>
         <p>${escapeHtml(documentKindLabel(file.type || "sin_tipo"))} - ${escapeHtml(file.year || "")}${file.subplanId ? ` - ${escapeHtml(subplanName(file.subplanId))}` : ""}${file.status ? ` - ${escapeHtml(statusLabel(file.status))}` : ""}${file.reviewDate ? ` - ${escapeHtml(file.reviewDate)}` : ""}</p>
         ${file.notes ? `<p>${escapeHtml(file.notes)}</p>` : ""}
-        <a href="./${escapeHtml(file.path)}" target="_blank" rel="noopener">${escapeHtml(file.path)}</a>
+        <a href="${escapeHtml(fileUrl(file.path))}" target="_blank" rel="noopener">${escapeHtml(file.path)}</a>
       </article>
     `)
     .join("");
@@ -452,7 +456,7 @@ function renderPeriodDocuments() {
       <article class="item">
         <h3>${escapeHtml(documentKindLabel(file.type))}</h3>
         <p>${escapeHtml(periodLabel(file.period))}</p>
-        <a href="./${escapeHtml(file.path)}" target="_blank" rel="noopener" download>${escapeHtml(file.name || file.path)}</a>
+        <a href="${escapeHtml(fileUrl(file.path))}" target="_blank" rel="noopener" download>${escapeHtml(file.name || file.path)}</a>
       </article>
     `)
     .join("");
@@ -724,7 +728,7 @@ function downloadDocuments() {
   documents.forEach((file, index) => {
     window.setTimeout(() => {
       const link = document.createElement("a");
-      link.href = `./${normalizePath(file.path)}`;
+      link.href = fileUrl(file.path);
       link.download = file.name || normalizePath(file.path).split("/").pop() || "documento";
       document.body.appendChild(link);
       link.click();
