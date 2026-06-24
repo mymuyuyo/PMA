@@ -6,18 +6,56 @@
       "path": "evidencias/2026/01_patente_municipal/2026_patente_municipal_muyuyo.pdf",
       "name": "2026_patente_municipal_muyuyo.pdf",
       "type": "patente_municipal",
-      "year": 2026
+      "year": 2026,
+      "period": "2026_06_a_2028_05",
+      "subplanId": "cumplimiento_legal_municipal",
+      "measureId": "patente_municipal",
+      "status": "cumple",
+      "reviewDate": "2026-04-15",
+      "reviewedBy": "Administracion",
+      "notes": "Patente municipal anual archivada."
     },
     {
       "path": "evidencias/2026/02_bomberos/2026_informe_general_inspeccion_bomberos.pdf",
       "name": "2026_informe_general_inspeccion_bomberos.pdf",
       "type": "bomberos",
-      "year": 2026
+      "year": 2026,
+      "period": "2026_06_a_2028_05",
+      "subplanId": "contingencias_seguridad",
+      "measureId": "bomberos",
+      "status": "cumple",
+      "reviewDate": "2026-03-27",
+      "reviewedBy": "Administracion",
+      "notes": "Informe General de Inspeccion archivado."
+    },
+    {
+      "path": "documentos_pma/informes_bianuales/2022_06_a_2024_05/2022_06_a_2024_05_informe_bianual_pma_muyuyo.pdf",
+      "name": "2022_06_a_2024_05_informe_bianual_pma_muyuyo.pdf",
+      "type": "informe_cumplimiento",
+      "year": 2024,
+      "period": "2022_06_a_2024_05",
+      "subplanId": "seguimiento_control_documental"
+    },
+    {
+      "path": "documentos_pma/oficios_presentacion/2022_06_a_2024_05/2022_06_a_2024_05_oficio_presentacion_informe_bianual.pdf",
+      "name": "2022_06_a_2024_05_oficio_presentacion_informe_bianual.pdf",
+      "type": "oficio_presentacion",
+      "year": 2024,
+      "period": "2022_06_a_2024_05",
+      "subplanId": "seguimiento_control_documental"
+    },
+    {
+      "path": "documentos_pma/anexos/2022_06_a_2024_05/2022_06_a_2024_05_anexos_informe_cumplimiento.pdf",
+      "name": "2022_06_a_2024_05_anexos_informe_cumplimiento.pdf",
+      "type": "anexos",
+      "year": 2024,
+      "period": "2022_06_a_2024_05",
+      "subplanId": "seguimiento_control_documental"
     }
   ],
   "summary": {
-    "totalFiles": 2,
-    "foldersIndexed": 2,
+    "totalFiles": 5,
+    "foldersIndexed": 5,
     "updateMode": "manual"
   }
 }

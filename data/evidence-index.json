@@ -1,10 +1,24 @@
 {
   "updatedAt": null,
   "year": 2026,
-  "files": [],
+  "files": [
+    {
+      "path": "documentos_pma/pma_final/PMA_ACTUALIZADO_DEPURADO_MUYUYO_PARA_PNG_CON_INDICE_Y_REPOSITORIO.pdf",
+      "name": "PMA_ACTUALIZADO_DEPURADO_MUYUYO_PARA_PNG_CON_INDICE_Y_REPOSITORIO.pdf",
+      "type": "plan_actualizado",
+      "year": 2026,
+      "period": "2026_06_a_2028_05",
+      "subplanId": "seguimiento_control_documental",
+      "measureId": "matriz_control",
+      "status": "cumple",
+      "reviewDate": "2026-06-23",
+      "reviewedBy": "Administracion",
+      "notes": "Plan actualizado registrado para el periodo vigente."
+    }
+  ],
   "summary": {
-    "totalFiles": 0,
-    "foldersIndexed": 0,
+    "totalFiles": 1,
+    "foldersIndexed": 1,
     "updateMode": "manual"
   }
 }

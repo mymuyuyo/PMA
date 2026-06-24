@@ -15,14 +15,16 @@
           "description": "Mantener practicas de ahorro de agua y energia durante la operacion del establecimiento.",
           "responsible": "Administracion",
           "frequency": "semestral",
-          "verifier": "Verificacion semestral ambiental general"
+          "verifier": "Verificacion semestral ambiental general",
+          "criterion": "Registro semestral completo."
         },
         {
           "id": "productos_respaldo",
-          "description": "Usar productos de limpieza o higiene con respaldo ambiental disponible para la operacion.",
+          "description": "Usar productos con respaldo ambiental disponible.",
           "responsible": "Administracion",
           "frequency": "semestral",
-          "verifier": "Certificacion del proveedor, fichas, etiquetas, facturas o respaldo ambiental equivalente"
+          "verifier": "Certificacion del proveedor, fichas, etiquetas, facturas o respaldo ambiental equivalente",
+          "criterion": "Respaldo vigente archivado."
         }
       ]
     },
@@ -35,14 +37,16 @@
           "description": "Separar y disponer desechos solidos conforme a practica municipal.",
           "responsible": "Administracion y personal operativo",
           "frequency": "semestral",
-          "verifier": "Verificacion semestral ambiental general"
+          "verifier": "Verificacion semestral ambiental general",
+          "criterion": "Area de almacenamiento temporal revisada."
         },
         {
           "id": "desechos_comprobante_municipal",
           "description": "Comprobar la recoleccion municipal de desechos solidos.",
           "responsible": "Administracion",
           "frequency": "anual",
-          "verifier": "Factura o comprobante de pago al municipio por recoleccion de desechos solidos"
+          "verifier": "Factura o comprobante de pago al municipio por recoleccion de desechos solidos",
+          "criterion": "Comprobante anual archivado."
         }
       ]
     },
@@ -55,21 +59,24 @@
           "description": "Mantener extintores, senaletica y medios de prevencion contra incendios.",
           "responsible": "Administracion",
           "frequency": "anual",
-          "verifier": "Informe General de Inspeccion del Cuerpo de Bomberos"
+          "verifier": "Informe General de Inspeccion del Cuerpo de Bomberos",
+          "criterion": "Informe anual archivado."
         },
         {
           "id": "acta_pma_simulacro",
           "description": "Realizar revision interna del PMA y simulacro operativo.",
           "responsible": "Administracion",
           "frequency": "anual",
-          "verifier": "Acta anual de revision del PMA y simulacro"
+          "verifier": "Acta anual de revision del PMA y simulacro",
+          "criterion": "Acta anual firmada y archivada."
         },
         {
           "id": "incidentes",
-          "description": "Registrar incidentes ambientales, acciones correctivas o quejas cuando ocurran.",
+          "description": "Registrar incidentes, acciones correctivas o quejas cuando ocurran.",
           "responsible": "Administracion",
           "frequency": "eventual",
-          "verifier": "Registro eventual de incidentes, acciones correctivas o quejas"
+          "verifier": "Registro eventual de incidentes, acciones correctivas o quejas",
+          "criterion": "Registro generado cuando exista novedad."
         }
       ]
     },
@@ -82,7 +89,8 @@
           "description": "Mantener vigente la patente municipal de operacion.",
           "responsible": "Administracion",
           "frequency": "anual",
-          "verifier": "Patente Municipal de Operacion otorgada por el GAD Municipal de Santa Cruz"
+          "verifier": "Patente Municipal de Operacion otorgada por el GAD Municipal de Santa Cruz",
+          "criterion": "Patente anual archivada."
         }
       ]
     },
@@ -95,7 +103,8 @@
           "description": "Actualizar matriz, formatos minimos y archivo anual.",
           "responsible": "Administracion",
           "frequency": "semestral_anual",
-          "verifier": "Matriz de cumplimiento y archivo anual de verificadores"
+          "verifier": "Matriz de cumplimiento y archivo anual de verificadores",
+          "criterion": "Documentacion actualizada."
         }
       ]
     },
@@ -108,7 +117,8 @@
           "description": "Mantener tablero de cumplimiento e indicadores del PMA.",
           "responsible": "Administracion",
           "frequency": "semestral_anual",
-          "verifier": "Dashboard de cumplimiento actualizado"
+          "verifier": "Dashboard de cumplimiento actualizado",
+          "criterion": "Vista documental disponible."
         }
       ]
     }
