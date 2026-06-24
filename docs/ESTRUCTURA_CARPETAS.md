@@ -72,6 +72,7 @@ pma-dashboard-muyuyo/
     FLUJO_OPERATIVO.md
     MANUAL_SEGUIMIENTO.html
     MANUAL_SUBIR_INFORMACION.html
+    PMA_VIGENTE.html
 ```
 
 ## Convencion de nombres de archivos
